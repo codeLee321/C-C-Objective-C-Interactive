@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47D704462068CD9A00C4A630 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D704452068CD9A00C4A630 /* AppDelegate.m */; };
+		47D704492068CD9A00C4A630 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47D704482068CD9A00C4A630 /* ViewController.mm */; };
+		47D7044C2068CD9A00C4A630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D7044A2068CD9A00C4A630 /* Main.storyboard */; };
+		47D7044E2068CD9A00C4A630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D7044D2068CD9A00C4A630 /* Assets.xcassets */; };
+		47D704512068CD9A00C4A630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D7044F2068CD9A00C4A630 /* LaunchScreen.storyboard */; };
+		47D704542068CD9A00C4A630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D704532068CD9A00C4A630 /* main.m */; };
+		47D7045E2068CD9A00C4A630 /* OCCallC__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7045D2068CD9A00C4A630 /* OCCallC__Tests.m */; };
+		47D704692068CD9A00C4A630 /* OCCallC__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D704682068CD9A00C4A630 /* OCCallC__UITests.m */; };
+		47F5D847206C87B700A0EEE8 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 47F5D845206C87B700A0EEE8 /* include */; };
+		47F5D848206C87B700A0EEE8 /* libtestStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F5D846206C87B700A0EEE8 /* libtestStaticLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D7045A2068CD9A00C4A630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D704392068CD9A00C4A630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D704402068CD9A00C4A630;
+			remoteInfo = "OCCallC++";
+		};
+		47D704652068CD9A00C4A630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D704392068CD9A00C4A630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D704402068CD9A00C4A630;
+			remoteInfo = "OCCallC++";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47D704412068CD9A00C4A630 /* OCCallC++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCCallC++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D704442068CD9A00C4A630 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47D704452068CD9A00C4A630 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47D704472068CD9A00C4A630 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47D704482068CD9A00C4A630 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		47D7044B2068CD9A00C4A630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D7044D2068CD9A00C4A630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47D704502068CD9A00C4A630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47D704522068CD9A00C4A630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D704532068CD9A00C4A630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47D704592068CD9A00C4A630 /* OCCallC++Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCCallC++Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D7045D2068CD9A00C4A630 /* OCCallC__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCallC__Tests.m; sourceTree = "<group>"; };
+		47D7045F2068CD9A00C4A630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D704642068CD9A00C4A630 /* OCCallC++UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCCallC++UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D704682068CD9A00C4A630 /* OCCallC__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCallC__UITests.m; sourceTree = "<group>"; };
+		47D7046A2068CD9A00C4A630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F5D845206C87B700A0EEE8 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		47F5D846206C87B700A0EEE8 /* libtestStaticLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtestStaticLibrary.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D7043E2068CD9A00C4A630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F5D848206C87B700A0EEE8 /* libtestStaticLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D704562068CD9A00C4A630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D704612068CD9A00C4A630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D704382068CD9A00C4A630 = {
+			isa = PBXGroup;
+			children = (
+				47D704432068CD9A00C4A630 /* OCCallC++ */,
+				47D7045C2068CD9A00C4A630 /* OCCallC++Tests */,
+				47D704672068CD9A00C4A630 /* OCCallC++UITests */,
+				47D704422068CD9A00C4A630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47D704422068CD9A00C4A630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D704412068CD9A00C4A630 /* OCCallC++.app */,
+				47D704592068CD9A00C4A630 /* OCCallC++Tests.xctest */,
+				47D704642068CD9A00C4A630 /* OCCallC++UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D704432068CD9A00C4A630 /* OCCallC++ */ = {
+			isa = PBXGroup;
+			children = (
+				47F5D845206C87B700A0EEE8 /* include */,
+				47F5D846206C87B700A0EEE8 /* libtestStaticLibrary.a */,
+				47D704442068CD9A00C4A630 /* AppDelegate.h */,
+				47D704452068CD9A00C4A630 /* AppDelegate.m */,
+				47D704472068CD9A00C4A630 /* ViewController.h */,
+				47D704482068CD9A00C4A630 /* ViewController.mm */,
+				47D7044A2068CD9A00C4A630 /* Main.storyboard */,
+				47D7044D2068CD9A00C4A630 /* Assets.xcassets */,
+				47D7044F2068CD9A00C4A630 /* LaunchScreen.storyboard */,
+				47D704522068CD9A00C4A630 /* Info.plist */,
+				47D704532068CD9A00C4A630 /* main.m */,
+			);
+			path = "OCCallC++";
+			sourceTree = "<group>";
+		};
+		47D7045C2068CD9A00C4A630 /* OCCallC++Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47D7045D2068CD9A00C4A630 /* OCCallC__Tests.m */,
+				47D7045F2068CD9A00C4A630 /* Info.plist */,
+			);
+			path = "OCCallC++Tests";
+			sourceTree = "<group>";
+		};
+		47D704672068CD9A00C4A630 /* OCCallC++UITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D704682068CD9A00C4A630 /* OCCallC__UITests.m */,
+				47D7046A2068CD9A00C4A630 /* Info.plist */,
+			);
+			path = "OCCallC++UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D704402068CD9A00C4A630 /* OCCallC++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D7046D2068CD9A00C4A630 /* Build configuration list for PBXNativeTarget "OCCallC++" */;
+			buildPhases = (
+				47D7043D2068CD9A00C4A630 /* Sources */,
+				47D7043E2068CD9A00C4A630 /* Frameworks */,
+				47D7043F2068CD9A00C4A630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCCallC++";
+			productName = "OCCallC++";
+			productReference = 47D704412068CD9A00C4A630 /* OCCallC++.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D704582068CD9A00C4A630 /* OCCallC++Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D704702068CD9A00C4A630 /* Build configuration list for PBXNativeTarget "OCCallC++Tests" */;
+			buildPhases = (
+				47D704552068CD9A00C4A630 /* Sources */,
+				47D704562068CD9A00C4A630 /* Frameworks */,
+				47D704572068CD9A00C4A630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D7045B2068CD9A00C4A630 /* PBXTargetDependency */,
+			);
+			name = "OCCallC++Tests";
+			productName = "OCCallC++Tests";
+			productReference = 47D704592068CD9A00C4A630 /* OCCallC++Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47D704632068CD9A00C4A630 /* OCCallC++UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D704732068CD9A00C4A630 /* Build configuration list for PBXNativeTarget "OCCallC++UITests" */;
+			buildPhases = (
+				47D704602068CD9A00C4A630 /* Sources */,
+				47D704612068CD9A00C4A630 /* Frameworks */,
+				47D704622068CD9A00C4A630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D704662068CD9A00C4A630 /* PBXTargetDependency */,
+			);
+			name = "OCCallC++UITests";
+			productName = "OCCallC++UITests";
+			productReference = 47D704642068CD9A00C4A630 /* OCCallC++UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D704392068CD9A00C4A630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = rongli;
+				TargetAttributes = {
+					47D704402068CD9A00C4A630 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					47D704582068CD9A00C4A630 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47D704402068CD9A00C4A630;
+					};
+					47D704632068CD9A00C4A630 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47D704402068CD9A00C4A630;
+					};
+				};
+			};
+			buildConfigurationList = 47D7043C2068CD9A00C4A630 /* Build configuration list for PBXProject "OCCallC++" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D704382068CD9A00C4A630;
+			productRefGroup = 47D704422068CD9A00C4A630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D704402068CD9A00C4A630 /* OCCallC++ */,
+				47D704582068CD9A00C4A630 /* OCCallC++Tests */,
+				47D704632068CD9A00C4A630 /* OCCallC++UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D7043F2068CD9A00C4A630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D704512068CD9A00C4A630 /* LaunchScreen.storyboard in Resources */,
+				47D7044E2068CD9A00C4A630 /* Assets.xcassets in Resources */,
+				47D7044C2068CD9A00C4A630 /* Main.storyboard in Resources */,
+				47F5D847206C87B700A0EEE8 /* include in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D704572068CD9A00C4A630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D704622068CD9A00C4A630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D7043D2068CD9A00C4A630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D704492068CD9A00C4A630 /* ViewController.mm in Sources */,
+				47D704542068CD9A00C4A630 /* main.m in Sources */,
+				47D704462068CD9A00C4A630 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D704552068CD9A00C4A630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7045E2068CD9A00C4A630 /* OCCallC__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D704602068CD9A00C4A630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D704692068CD9A00C4A630 /* OCCallC__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D7045B2068CD9A00C4A630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D704402068CD9A00C4A630 /* OCCallC++ */;
+			targetProxy = 47D7045A2068CD9A00C4A630 /* PBXContainerItemProxy */;
+		};
+		47D704662068CD9A00C4A630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D704402068CD9A00C4A630 /* OCCallC++ */;
+			targetProxy = 47D704652068CD9A00C4A630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D7044A2068CD9A00C4A630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D7044B2068CD9A00C4A630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47D7044F2068CD9A00C4A630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D704502068CD9A00C4A630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D7046B2068CD9A00C4A630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47D7046C2068CD9A00C4A630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D7046E2068CD9A00C4A630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OCCallC++/include/testStaticLibrary\"";
+				INFOPLIST_FILE = "OCCallC++/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCCallC++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongli.OCCallC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47D7046F2068CD9A00C4A630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OCCallC++/include/testStaticLibrary\"";
+				INFOPLIST_FILE = "OCCallC++/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCCallC++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongli.OCCallC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47D704712068CD9A00C4A630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCCallC++Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongli.OCCallC--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCCallC++.app/OCCallC++";
+			};
+			name = Debug;
+		};
+		47D704722068CD9A00C4A630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCCallC++Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongli.OCCallC--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCCallC++.app/OCCallC++";
+			};
+			name = Release;
+		};
+		47D704742068CD9A00C4A630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCCallC++UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongli.OCCallC--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCCallC++";
+			};
+			name = Debug;
+		};
+		47D704752068CD9A00C4A630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCCallC++UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongli.OCCallC--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCCallC++";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D7043C2068CD9A00C4A630 /* Build configuration list for PBXProject "OCCallC++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D7046B2068CD9A00C4A630 /* Debug */,
+				47D7046C2068CD9A00C4A630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D7046D2068CD9A00C4A630 /* Build configuration list for PBXNativeTarget "OCCallC++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D7046E2068CD9A00C4A630 /* Debug */,
+				47D7046F2068CD9A00C4A630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D704702068CD9A00C4A630 /* Build configuration list for PBXNativeTarget "OCCallC++Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D704712068CD9A00C4A630 /* Debug */,
+				47D704722068CD9A00C4A630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D704732068CD9A00C4A630 /* Build configuration list for PBXNativeTarget "OCCallC++UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D704742068CD9A00C4A630 /* Debug */,
+				47D704752068CD9A00C4A630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D704392068CD9A00C4A630 /* Project object */;
+}
